@@ -226,6 +226,25 @@ hr {
     font-weight: 300;
 }
 
+/* CHEF SECTION */
+
+.card-body h1 {
+    font-size: 25px;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.card-body h6 {
+    font-size: 16px;
+    color: #c69963;
+}
+
+footer {
+    background-color: #101D2C;
+    color: rgba(255, 255, 255, .5);
+}
+
 @media (min-width: 576px) {
     .navbar-brand {
         max-width: 150px;
