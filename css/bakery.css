@@ -234,12 +234,22 @@ hr {
         top: 35px;
         right: 25px;
     }
+    
+    .point-right::before,
+    .point-left::before {
+        display: none;
+    }
+
+    .menu-item-desc {
+        padding: 50px 20px;
+    }
 }
 
 @media (min-width: 768px) {
     .btn {
         max-width: 150px;
     }
+
 }
 
 
@@ -302,7 +312,32 @@ hr {
 
 }
 
+@media (min-width: 1200px) {
+    .point-left::before,
+    .point-right::before {
+        display: block;
+        top: 50%;
+        left: initial;
+        transform: translate(0, -50%) rotate(45deg);
+    }
 
+    .point-left::before {
+        left: -12px;
+    }
+
+    .point-right::before {
+        right: -12px;
+    }
+
+    .menu-item-desc p {
+        display: none;
+    }
+
+    .menu-item-desc .btn {
+        color: #fff !important;
+        background-color: #c69963;
+    }
+}
 
 
 
