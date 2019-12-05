@@ -3,4 +3,5 @@ $(function() {
         $('.toggle').toggleClass('open');
         $('.nav-list').toggleClass('open');
     });
+
 });
